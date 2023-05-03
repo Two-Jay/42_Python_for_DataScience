@@ -3,11 +3,13 @@ import sys
 
 sys.tracebacklimit = 0
 
+
 def dedent(string: str) -> str:
     """
     function to dedent a string
     """
     return string.replace('    ', '').replace('\t', '')
+
 
 def check_string_by_conditions(string: str) -> None:
     """
