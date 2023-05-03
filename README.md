@@ -1,2 +1,2 @@
-# 42_Python_for_DataSience
-42_Python_for_DataSience
+# 42_Python_for_DataScience
+42_Python_for_DataScience
