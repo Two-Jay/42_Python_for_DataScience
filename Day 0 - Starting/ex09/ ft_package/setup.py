@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ft_package_42_jekim",
-    version="0.0.1",
+    version="0.0.2",
     author="Two-Jay",
     author_email="djeeee1272@gmail.com",
     license="MIT",
