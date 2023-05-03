@@ -3,7 +3,7 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-VERSION = "0.0.5"
+VERSION = "0.0.11"
 SUMMARY = "A small example package"
 
 setuptools.setup(
