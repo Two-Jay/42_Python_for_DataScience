@@ -6,12 +6,11 @@ def ft_tqdm(lst: range) -> None:
     and yield the current element of the range
     """
     limit = lst.stop
-    arrow_maximum_len = 100
+    bar_width = 100
     for elem in range(len(lst) + 1):
-        current_progress = elem / limit * 100
-        loading_progress = f"{elem}/{limit}"
-        base = 100 / arrow_maximum_len
-        arrow = "█" * int(current_progress / base)
-        print(f"{current_progress:03.0f}%|{arrow:<{arrow_maximum_len}}| {loading_progress}", end="\r")
+        percent = elem / limit * 100
+        load_count = f"{elem}/{limit}"
+        base = 100 / bar_width
+        arrow = "█" * int(percent / base)
+        print(f"{percent:03.0f}%|{arrow:<{bar_width}}| {load_count}", end="\r")
         yield elem
-
