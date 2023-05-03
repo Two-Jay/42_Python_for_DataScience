@@ -3,7 +3,6 @@ import sys
 
 sys.tracebacklimit = 0
 
-
 def get_args() -> ap.Namespace:
     parser = ap.ArgumentParser()
     parser.add_argument("arg", type=str, nargs='*')
